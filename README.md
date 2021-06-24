@@ -1,4 +1,6 @@
-# Instructions for building
+# Python-Web-Server-Docker-Container
+
+## Instructions for building
 
 `sudo docker build -t *custom_name* .`
 
@@ -16,5 +18,4 @@
 
 `sudo docker inspect <container_name>| grep '"IPAddress"'`
 
-> Natively it runs on port 8088, so you would just do <containerIP>:8088  
-# Python-Web-Server-Docker-Container
+> Natively it runs on port 8088, so you would just do 'containerIP':8088  
